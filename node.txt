@@ -15,5 +15,8 @@ SSR客户端下载地址:电脑版-https://github-production-release-asset-2e65b
 安卓版-https://github-production-release-asset-2e65be.s3.amazonaws.com/98540924/2e556ccc-22f5-11e8-8c8e-300d99ecfd48?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190728%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190728T050520Z&X-Amz-Expires=300&X-Amz-Signature=7a8f49d423024c62821979b1978b0ffd3b05b7e77ead28d96e19dacf2d00387a&X-Amz-SignedHeaders=host&actor_id=32429254&response-content-disposition=attachment%3B%20filename%3Dshadowsocksr-android-3.5.4.apk&response-content-type=application%2Fvnd.android.package-archive(Mac和ios用户请自行寻找客户端!谢谢!)
 -如有节点失效,请在tg群里告知,谢谢!如有想自己搭建SSR的,推荐这个Vultr VPS,最低2.5美元/月,用我的邀请链接还能获得有效期为30天的50美元体验:https://www.vultr.com/?ref=7817059-4F就算个推广吧,我也能获得25美元的推广费,谢谢支持!
 如果有小伙伴觉得节点不错,不妨捐赠打赏一下,支付宝,微信,QQ二维码付款链接:https://1drv.ms/u/s!AlGrSNukSOx6jwE8IES5CSDEW5UE,请先连上代理后再打开。
-谢谢大家的支持与关注!
-更新时间:2019.7.28(16:07)
+谢谢大家的支持与关注!如果有小伙伴有闲置的VPS,也是可以捐赠一下的,谢谢!
+                                              捐赠墙(以资鼓励,以表感激,你们都是最可爱的人!❤️👍👏😄)
+TG用户1 1   微信支付   5.00元   djj表示支持
+更新时间:2019.7.28(19:46)
+                                      
