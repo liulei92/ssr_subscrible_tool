@@ -3,6 +3,9 @@
 
 Good luck, guys!
 
+# 通过 Netlify 进行生成网站
+Netlify https://app.netlify.com/
+
 # SSR节点列表生成器
 > 适配ios版shadowrocket，PC或Mac版小飞机,
 
