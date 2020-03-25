@@ -22,4 +22,3 @@ Netlify [https://app.netlify.com/](https://app.netlify.com/?_blank)
 
 ## 问题
 - 据反映安卓或者Windows客户端可能无法订阅成功，请为添加的每一个节点设置相同的**分组**
-
