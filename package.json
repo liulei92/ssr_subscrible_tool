@@ -1,14 +1,14 @@
 {
   "name": "build-tool",
-  "version": "1.0.0",
-  "description": "Provide SSR subscrible link",
+  "version": "1.0.1",
+  "description": "Provide SSR/VMESS subscrible link",
   "main": "app.js",
   "scripts": {
     "build": "node app.js"
   },
   "keywords": [
-    "ssr", "subscrible link"
+    "ssr", "vmess", "subscrible link"
   ],
-  "author": "Andy Chung",
+  "author": "Andy Chung, LEI LIU",
   "license": "ISC"
 }
