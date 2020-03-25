@@ -20,7 +20,7 @@ const vmess = readSync(VMESS_FILE)
 // 符合 ssr 的 修改group 或者 添加group
 const ssrReducer = (total = '', item, index, arr) => {
   if (item.startsWith('ss')) {
-    const arr = item.split('//')
+    let arr = item.split('//')
     arr[1] = base64.decode(arr[1])
 
     if (arr[1].includes('group=')) {
@@ -44,7 +44,11 @@ const ssrReducer = (total = '', item, index, arr) => {
 
 // 处理 vmess
 const vmessReducer = (total = '', item, index, arr) => {
-  return total
+  if (item.startsWith('vmess')) {
+    return total  + (total === '' ? '' : ',') + item
+  } else {
+    return total
+  }
 }
 
 // Map all the item include `ssr://` and serialize those items
@@ -55,6 +59,8 @@ const ssrResult = ssr.split('\n')
 const vmessResult = vmess.split('\n')
                 .reduce(vmessReducer, '')
                 .replace(/\,/g, '\r\n')
+
+console.log(base64.encode(vmessResult))
 
 writeSync(path.resolve(__dirname, BUILD_DIR, 'ssr.txt'), base64.encode(ssrResult))
 writeSync(path.resolve(__dirname, BUILD_DIR, 'vmess.txt'), base64.encode(vmessResult))
