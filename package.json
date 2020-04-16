@@ -4,6 +4,7 @@
   "description": "Provide SSR/VMESS subscrible link",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js && cd dist && sgo --fallback index.html",
     "build": "node app.js"
   },
   "keywords": [
