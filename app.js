@@ -120,7 +120,7 @@ const vmessResult = vmess
 // 20210625 fast pjj
 const template = [
   {
-    name: '【FASTQ_A】HK/香港_1',
+    name: 'FASTQ_A_HK香港_1',
     server: 'a1.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -130,7 +130,7 @@ const template = [
     'skip-cert-verify': false,
   },
   {
-    name: '【FASTQ_A】HK/香港_2',
+    name: 'FASTQ_A_HK香港_2',
     server: 'a2.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -140,7 +140,7 @@ const template = [
     'skip-cert-verify': false,
   },
   {
-    name: '【FASTQ_A】HK/香港_3',
+    name: 'FASTQ_A_HK香港_3',
     server: 'a3.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -150,7 +150,7 @@ const template = [
     'skip-cert-verify': false,
   },
   {
-    name: '【FASTQ_A】HK/香港_4',
+    name: 'FASTQ_A_HK香港_4',
     server: 'a4.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -160,7 +160,7 @@ const template = [
     'skip-cert-verify': false,
   },
   {
-    name: '【FASTQ_A】HK/香港_5',
+    name: 'FASTQ_A_HK香港_5',
     server: 'a5.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -170,7 +170,7 @@ const template = [
     'skip-cert-verify': false,
   },
   {
-    name: '【FASTQ_G】HK/香港',
+    name: 'FASTQ_G_HK香港',
     server: 'global.ap.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -180,7 +180,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】AU/澳大利亚',
+    name: 'FASTQ_G_AU澳大利亚',
     server: 'global.ap.fastqvpn.com',
     port: 29982,
     username: 435080826590330880,
@@ -190,7 +190,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】CA/加拿大',
+    name: 'FASTQ_G_CA加拿大',
     server: 'global.ap.fastqvpn.com',
     port: 29983,
     username: 435080826590330880,
@@ -200,7 +200,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】DE/德国',
+    name: 'FASTQ_G_DE德国',
     server: 'global.ap.fastqvpn.com',
     port: 29984,
     username: 435080826590330880,
@@ -210,7 +210,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】JP/日本',
+    name: 'FASTQ_G_JP日本',
     server: 'global.ap.fastqvpn.com',
     port: 29985,
     username: 435080826590330880,
@@ -220,7 +220,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】SG/新加坡',
+    name: 'FASTQ_G_S新加坡',
     server: 'global.ap.fastqvpn.com',
     port: 29986,
     username: 435080826590330880,
@@ -230,7 +230,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】UK/英国',
+    name: 'FASTQ_G_UK英国',
     server: 'global.ap.fastqvpn.com',
     port: 29987,
     username: 435080826590330880,
@@ -240,7 +240,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_G】US/美国',
+    name: 'FASTQ_G_US美国',
     server: 'global.ap.fastqvpn.com',
     port: 29988,
     username: 435080826590330880,
@@ -250,7 +250,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】HK/香港',
+    name: 'FASTQ_W_HK香港',
     server: 'tx.wy.fastqvpn.com',
     port: 29980,
     username: 435080826590330880,
@@ -260,7 +260,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】AU/澳大利亚',
+    name: 'FASTQ_W_AU澳大利亚',
     server: 'tx.wy.fastqvpn.com',
     port: 29982,
     username: 435080826590330880,
@@ -270,7 +270,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】CA/加拿大',
+    name: 'FASTQ_W_CA加拿大',
     server: 'tx.wy.fastqvpn.com',
     port: 29983,
     username: 435080826590330880,
@@ -280,7 +280,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】DE/德国',
+    name: 'FASTQ_W_DE德国',
     server: 'tx.wy.fastqvpn.com',
     port: 29984,
     username: 435080826590330880,
@@ -290,7 +290,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】JP/日本',
+    name: 'FASTQ_W_JP日本',
     server: 'tx.wy.fastqvpn.com',
     port: 29985,
     username: 435080826590330880,
@@ -300,7 +300,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】SG/新加坡',
+    name: 'FASTQ_W_S新加坡',
     server: 'tx.wy.fastqvpn.com',
     port: 29986,
     username: 435080826590330880,
@@ -310,7 +310,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】UK/英国',
+    name: 'FASTQ_W_UK英国',
     server: 'tx.wy.fastqvpn.com',
     port: 29987,
     username: 435080826590330880,
@@ -320,7 +320,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【FASTQ_W】US/美国',
+    name: 'FASTQ_W_US美国',
     server: 'tx.wy.fastqvpn.com',
     port: 29988,
     username: 435080826590330880,
@@ -330,7 +330,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】HK/香港',
+    name: 'ER3_A_HK香港',
     server: 'a1.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -340,7 +340,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】AU/澳大利亚',
+    name: 'ER3_A_AU澳大利亚',
     server: 'a1.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -350,7 +350,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】CA/加拿大',
+    name: 'ER3_A_CA加拿大',
     server: 'a1.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -360,7 +360,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】DE/德国',
+    name: 'ER3_A_DE德国',
     server: 'a1.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -370,7 +370,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】JP/日本',
+    name: 'ER3_A_JP日本',
     server: 'a1.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -380,7 +380,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】SG/新加坡',
+    name: 'ER3_A_S新加坡',
     server: 'a1.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -390,7 +390,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】UK/英国',
+    name: 'ER3_A_UK英国',
     server: 'a1.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -400,7 +400,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_A】US/美国',
+    name: 'ER3_A_US美国',
     server: 'a1.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -410,7 +410,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】HK/香港',
+    name: 'ER3_GE_HK香港',
     server: 'ap1-ge.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -420,7 +420,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】AU/澳大利亚',
+    name: 'ER3_GE_AU澳大利亚',
     server: 'ap1-ge.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -430,7 +430,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】CA/加拿大',
+    name: 'ER3_GE_CA加拿大',
     server: 'ap1-ge.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -440,7 +440,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】DE/德国',
+    name: 'ER3_GE_DE德国',
     server: 'ap1-ge.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -450,7 +450,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】JP/日本',
+    name: 'ER3_GE_JP日本',
     server: 'ap1-ge.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -460,7 +460,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】SG/新加坡',
+    name: 'ER3_GE_S新加坡',
     server: 'ap1-ge.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -470,7 +470,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】UK/英国',
+    name: 'ER3_GE_UK英国',
     server: 'ap1-ge.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -480,7 +480,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_GE】US/美国',
+    name: 'ER3_GE_US美国',
     server: 'ap1-ge.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -490,7 +490,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_1',
+    name: 'ER3_JP_JP日本_1',
     server: 'ap1-jp.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -500,7 +500,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_2',
+    name: 'ER3_JP_JP日本_2',
     server: 'ap1-jp.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -510,7 +510,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_3',
+    name: 'ER3_JP_JP日本_3',
     server: 'ap1-jp.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -520,7 +520,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_4',
+    name: 'ER3_JP_JP日本_4',
     server: 'ap1-jp.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -530,7 +530,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_5',
+    name: 'ER3_JP_JP日本_5',
     server: 'ap1-jp.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -540,7 +540,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_6',
+    name: 'ER3_JP_JP日本_6',
     server: 'ap1-jp.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -550,7 +550,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_7',
+    name: 'ER3_JP_JP日本_7',
     server: 'ap1-jp.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -560,7 +560,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_JP】JP/日本_8',
+    name: 'ER3_JP_JP日本_8',
     server: 'ap1-jp.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -570,7 +570,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_1',
+    name: 'ER3_SG_S新加坡_1',
     server: 'ap1-sg.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -580,7 +580,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_2',
+    name: 'ER3_SG_S新加坡_2',
     server: 'ap1-sg.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -590,7 +590,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_3',
+    name: 'ER3_SG_S新加坡_3',
     server: 'ap1-sg.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -600,7 +600,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_4',
+    name: 'ER3_SG_S新加坡_4',
     server: 'ap1-sg.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -610,7 +610,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_5',
+    name: 'ER3_SG_S新加坡_5',
     server: 'ap1-sg.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -620,7 +620,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_6',
+    name: 'ER3_SG_S新加坡_6',
     server: 'ap1-sg.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -630,7 +630,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_7',
+    name: 'ER3_SG_S新加坡_7',
     server: 'ap1-sg.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -640,7 +640,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_SG】SG/新加坡_8',
+    name: 'ER3_SG_S新加坡_8',
     server: 'ap1-sg.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -650,7 +650,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_1',
+    name: 'ER3_AU_AU澳大利亚_1',
     server: 'ap1-au.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -660,7 +660,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_2',
+    name: 'ER3_AU_AU澳大利亚_2',
     server: 'ap1-au.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -670,7 +670,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_3',
+    name: 'ER3_AU_AU澳大利亚_3',
     server: 'ap1-au.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -680,7 +680,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_4',
+    name: 'ER3_AU_AU澳大利亚_4',
     server: 'ap1-au.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -690,7 +690,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_5',
+    name: 'ER3_AU_AU澳大利亚_5',
     server: 'ap1-au.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -700,7 +700,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_6',
+    name: 'ER3_AU_AU澳大利亚_6',
     server: 'ap1-au.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -710,7 +710,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_7',
+    name: 'ER3_AU_AU澳大利亚_7',
     server: 'ap1-au.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -720,7 +720,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_AU】AU/澳大利亚_8',
+    name: 'ER3_AU_AU澳大利亚_8',
     server: 'ap1-au.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -730,7 +730,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_1',
+    name: 'ER3_CA_CA加拿大_1',
     server: 'ap1-ca.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -740,7 +740,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_2',
+    name: 'ER3_CA_CA加拿大_2',
     server: 'ap1-ca.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -750,7 +750,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_3',
+    name: 'ER3_CA_CA加拿大_3',
     server: 'ap1-ca.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -760,7 +760,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_4',
+    name: 'ER3_CA_CA加拿大_4',
     server: 'ap1-ca.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -770,7 +770,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_5',
+    name: 'ER3_CA_CA加拿大_5',
     server: 'ap1-ca.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -780,7 +780,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_6',
+    name: 'ER3_CA_CA加拿大_6',
     server: 'ap1-ca.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -790,7 +790,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_7',
+    name: 'ER3_CA_CA加拿大_7',
     server: 'ap1-ca.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -800,7 +800,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_CA】CA/加拿大_8',
+    name: 'ER3_CA_CA加拿大_8',
     server: 'ap1-ca.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -810,7 +810,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_1',
+    name: 'ER3_UK_UK英国_1',
     server: 'ap1-uk.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -820,7 +820,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_2',
+    name: 'ER3_UK_UK英国_2',
     server: 'ap1-uk.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -830,7 +830,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_3',
+    name: 'ER3_UK_UK英国_3',
     server: 'ap1-uk.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -840,7 +840,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_4',
+    name: 'ER3_UK_UK英国_4',
     server: 'ap1-uk.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -850,7 +850,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_5',
+    name: 'ER3_UK_UK英国_5',
     server: 'ap1-uk.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -860,7 +860,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_6',
+    name: 'ER3_UK_UK英国_6',
     server: 'ap1-uk.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -870,7 +870,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_7',
+    name: 'ER3_UK_UK英国_7',
     server: 'ap1-uk.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -880,7 +880,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_UK】UK/英国_8',
+    name: 'ER3_UK_UK英国_8',
     server: 'ap1-uk.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -890,7 +890,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_1',
+    name: 'ER3_US_US美国_1',
     server: 'ap1-us.er3.xyz',
     port: 29980,
     username: 435080826590330880,
@@ -900,7 +900,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_2',
+    name: 'ER3_US_US美国_2',
     server: 'ap1-us.er3.xyz',
     port: 29982,
     username: 435080826590330880,
@@ -910,7 +910,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_3',
+    name: 'ER3_US_US美国_3',
     server: 'ap1-us.er3.xyz',
     port: 29983,
     username: 435080826590330880,
@@ -920,7 +920,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_4',
+    name: 'ER3_US_US美国_4',
     server: 'ap1-us.er3.xyz',
     port: 29984,
     username: 435080826590330880,
@@ -930,7 +930,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_5',
+    name: 'ER3_US_US美国_5',
     server: 'ap1-us.er3.xyz',
     port: 29985,
     username: 435080826590330880,
@@ -940,7 +940,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_6',
+    name: 'ER3_US_US美国_6',
     server: 'ap1-us.er3.xyz',
     port: 29986,
     username: 435080826590330880,
@@ -950,7 +950,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_7',
+    name: 'ER3_US_US美国_7',
     server: 'ap1-us.er3.xyz',
     port: 29987,
     username: 435080826590330880,
@@ -960,7 +960,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: '【ER3_US】US/美国_8',
+    name: 'ER3_US_US美国_8',
     server: 'ap1-us.er3.xyz',
     port: 29988,
     username: 435080826590330880,
@@ -970,7 +970,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'TW/台湾◆PJJ1',
+    name: 'TW台湾PJJ1',
     server: 'tw01.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -980,7 +980,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'TW/台湾◆PJJ2',
+    name: 'TW台湾PJJ2',
     server: 'tw02.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -990,7 +990,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'TW/台湾◆PJJ3',
+    name: 'TW台湾PJJ3',
     server: 'tw03.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1000,7 +1000,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'TW/台湾◆PJJ4',
+    name: 'TW台湾PJJ4',
     server: 'tw04.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1010,7 +1010,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'KR/韩国◆PJJ1',
+    name: 'KR韩国PJJ1',
     server: 'sk03.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1020,7 +1020,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'KR/韩国◆PJJ2',
+    name: 'KR韩国PJJ2',
     server: 'sk04.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1030,7 +1030,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'SG/新加坡◆PJJ1',
+    name: 'SG新加坡PJJ1',
     server: 'sg01.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1040,7 +1040,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'SG/新加坡◆PJJ2',
+    name: 'SG新加坡PJJ2',
     server: 'sg02.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1050,7 +1050,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'SG/新加坡◆PJJ3',
+    name: 'SG新加坡PJJ3',
     server: 'sg03.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1060,7 +1060,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'SG/新加坡◆PJJ4',
+    name: 'SG新加坡PJJ4',
     server: 'sg04.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1070,7 +1070,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'HK/香港◆PJJ1',
+    name: 'HK香港PJJ1',
     server: 'hk01.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1080,7 +1080,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'HK/香港◆PJJ2',
+    name: 'HK香港PJJ2',
     server: 'hk02.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1090,7 +1090,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'HK/香港◆PJJ3',
+    name: 'HK香港PJJ3',
     server: 'hk03.pjj.life',
     port: 29980,
     username: 435080826590330880,
@@ -1100,7 +1100,7 @@ const template = [
     'skip-cert-verify': true,
   },
   {
-    name: 'HK/香港◆PJJ4',
+    name: 'HK香港PJJ4',
     server: 'hk04.pjj.life',
     port: 29980,
     username: 435080826590330880,
