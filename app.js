@@ -1119,9 +1119,9 @@ function fastqExcute() {
   return template
     .map((item) => {
       const str = `${username}:${password}@${item.server}:${item.port}`;
-      return `https://${base64.encode(str)}`;
+      return `https://${base64.encode(str)}\n`; // ?cert=&peer=#${item.name}
     })
-    .join('\n');
+    .join('');
 }
 const fastqResult = fastqExcute();
 
