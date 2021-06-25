@@ -1134,6 +1134,6 @@ writeSync(
   base64.encode(vmessResult),
 );
 writeSync(
-  path.resolve(__dirname, BUILD_DIR, 'fastq_https.txt'),
-  base64.encode(fastqResult),
+  path.resolve(__dirname, BUILD_DIR, 'fastq_https.html'),
+  `<html><head></head><body>${base64.encode(fastqResult)}</body></html>`,
 );
