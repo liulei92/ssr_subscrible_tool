@@ -1121,7 +1121,7 @@ function fastqExcute() {
       const str = `${username}:${password}@${item.server}:${item.port}`;
       return `https://${base64.encode(str)}?cert=&peer=#${item.name}`;
     })
-    .join('\n');
+    .join('\n') + "\n";
 }
 const fastqResult = fastqExcute();
 
