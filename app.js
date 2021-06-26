@@ -1141,3 +1141,5 @@ writeSync(
   path.resolve(__dirname, BUILD_DIR, 'fastq_https.txt'),
   base64.encode(fastqResult),
 );
+
+console.log(Date.parse(new Date());
